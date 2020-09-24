@@ -19,33 +19,33 @@ struct AppItem: Codable {
 }
 
 
-extension AppStoreItem {
-    
-    init?(itemType: AppStoreItem.ItemType, dict: [String : Any]) {
-        if itemType == .app {
-            guard let title = dict["trackName"] as? String,
-                let subtitle = dict["description"] as? String else { return nil }
-            
-            let imageURL = dict["artworkUrl100"] as? String
-            
-            self.title = title
-            self.subtitle = subtitle
-            self.imageURL = imageURL
-            
-        } else if itemType == .song {
-            
-            guard let title = dict["artistName"] as? String, let subtitle = dict["trackName"] as? String else { return nil }
-            
-            let imageURL = dict["artworkUrl100"] as? String
-            
-            self.title = title
-            self.subtitle = subtitle
-            self.imageURL = imageURL
-            
-        } else {
-            print("forgot to add availability for other types of items")
-        }
-        return nil
-        
-    }
-}
+//extension AppStoreItem {
+//
+//    init?(itemType: AppStoreItem.ItemType, dict: [String : Any]) {
+//        if itemType == .app {
+//            guard let title = dict["trackName"] as? String,
+//                let subtitle = dict["description"] as? String else { return nil }
+//
+//            let imageURL = dict["artworkUrl100"] as? String
+//
+//            self.title = title
+//            self.subtitle = subtitle
+//            self.imageURL = imageURL
+//
+//        } else if itemType == .song {
+//
+//            guard let title = dict["artistName"] as? String, let subtitle = dict["trackName"] as? String else { return nil }
+//
+//            let imageURL = dict["artworkUrl100"] as? String
+//
+//            self.title = title
+//            self.subtitle = subtitle
+//            self.imageURL = imageURL
+//
+//        } else {
+//            print("forgot to add availability for other types of items")
+//        }
+//        return nil
+//
+//    }
+//}

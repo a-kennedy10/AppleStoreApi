@@ -29,6 +29,9 @@
                                         <segment title="Music"/>
                                         <segment title="Apps"/>
                                     </segments>
+                                    <connections>
+                                        <action selector="entitySegmentedControlSwitch:" destination="uqc-cf-96g" eventType="valueChanged" id="owl-BE-yUv"/>
+                                    </connections>
                                 </segmentedControl>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,15 +45,15 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KVs-aW-pOE" customClass="ItemTableViewCell" customModule="AppleSearch" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="142" width="414" height="150"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="entityCell" rowHeight="130" id="KVs-aW-pOE" customClass="ItemTableViewCell" customModule="AppleSearch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="142" width="414" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KVs-aW-pOE" id="kpO-gn-fqK">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yCZ-sJ-ENX">
-                                            <rect key="frame" x="304" y="25" width="100" height="100"/>
+                                            <rect key="frame" x="304" y="15" width="100" height="100"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="Ci9-cD-oFf"/>
                                                 <constraint firstAttribute="height" constant="100" id="GGe-i1-pRV"/>
