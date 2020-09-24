@@ -16,6 +16,7 @@
 		FA62A7BA251CD74D00C793B1 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62A7B9251CD74D00C793B1 /* ItemTableViewCell.swift */; };
 		FA62A7BD251CD86600C793B1 /* AppStoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62A7BC251CD86600C793B1 /* AppStoreItem.swift */; };
 		FA62A7BF251CD87500C793B1 /* AppStoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62A7BE251CD87500C793B1 /* AppStoreItemController.swift */; };
+		FAF5CF6B251D085500E0E32D /* MusicStoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5CF6A251D085500E0E32D /* MusicStoreItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FA62A7B9251CD74D00C793B1 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		FA62A7BC251CD86600C793B1 /* AppStoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItem.swift; sourceTree = "<group>"; };
 		FA62A7BE251CD87500C793B1 /* AppStoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItemController.swift; sourceTree = "<group>"; };
+		FAF5CF6A251D085500E0E32D /* MusicStoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStoreItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				FA62A7BC251CD86600C793B1 /* AppStoreItem.swift */,
+				FAF5CF6A251D085500E0E32D /* MusicStoreItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				FA62A7BA251CD74D00C793B1 /* ItemTableViewCell.swift in Sources */,
 				FA62A7A1251CD54B00C793B1 /* AppDelegate.swift in Sources */,
+				FAF5CF6B251D085500E0E32D /* MusicStoreItem.swift in Sources */,
 				FA62A7B8251CD73A00C793B1 /* MainTableViewController.swift in Sources */,
 				FA62A7BD251CD86600C793B1 /* AppStoreItem.swift in Sources */,
 				FA62A7BF251CD87500C793B1 /* AppStoreItemController.swift in Sources */,

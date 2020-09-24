@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct AppStoreItem {
-    let title: String
-    let subtitle: String
-    let imageURL: String?
-    
-    enum ItemType: String {
-        case app = "software"
-        case song = "musicTrack"
-    }
+struct AppTopLevelObject: Codable {
+    let results: [AppItem]
 }
+
+struct AppItem: Codable {
+    let trackName: String
+    let artworkUrl100: URL?
+    let description: String
+}
+
 
 extension AppStoreItem {
     

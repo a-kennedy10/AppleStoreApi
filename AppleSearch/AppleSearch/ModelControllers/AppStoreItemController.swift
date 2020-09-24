@@ -46,7 +46,6 @@ class AppStoreItemController {
                 completion([])
                 return
             }
-            
         }.resume()
         
     }
